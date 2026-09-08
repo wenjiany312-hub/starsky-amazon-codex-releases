@@ -18,24 +18,28 @@
 
 36 个 Skill 目录包含业务技能、入口、内部编排与共享契约。缺数据会说明缺什么，不编造销量、CPC 或店铺表现。广告文件由你审核后自行上传；系统不代替你付款、发货或改后台。
 
+## 最新版本入口
+
+**只认此处：最新公开预览版为 v2.6.0-rc.3。** Windows 与 Mac 是同一版本的两个安装包，不是两条业务分支。旧版保留用于回退；目前没有已完成全平台实机验收的稳定版声明。
+
 ## 下载
 
-当前为 **2.6.0-rc.2 双平台会员测试版（Pre-release）**，面向愿意实测并反馈问题的星球会员。Windows 和 Mac 的 rc.1 已有安装、授权与本地体检记录；本次 rc.2 的 Mac 实机更新、新任务加载及完整 S1/S2 实跑仍待测试，不等于正式稳定版验收通过。
+当前为 **2.6.0-rc.3 双平台会员测试版（Pre-release）**，面向愿意实测并反馈问题的星球会员。Windows 和 Mac 的 rc.1 已有安装、授权与本地体检记录；本次 rc.3 的 Mac 实机更新、新任务加载及完整 S1/S2 实跑仍待测试，不等于正式稳定版验收通过。
 
 | 平台 | 下载 | 安装入口 |
 | --- | --- | --- |
-| Windows | [Windows 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.2/Starsky-Codex-2.6.0-rc.2-windows.zip) | 解压后先看 `00-使用说明.html`，再运行 `申请授权.bat` |
-| macOS | [Mac 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.2/Starsky-Codex-2.6.0-rc.2-macos.zip) | 解压后先看 `00-使用说明.html`，再运行 `申请授权.command` |
+| Windows | [Windows 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.3/Starsky-Codex-2.6.0-rc.3-windows.zip) | 解压后先看 `00-使用说明.html`，再运行 `申请授权.bat` |
+| macOS | [Mac 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.3/Starsky-Codex-2.6.0-rc.3-macos.zip) | 解压后先看 `00-使用说明.html`，再运行 `申请授权.command` |
 
 [查看全部版本与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases) · [安装、授权与更新说明](docs/安装与授权.md) · [本版更新记录](docs/更新记录.md)
 
 两包均含四份离线说明，每份提供 HTML 和 TXT：**00 使用说明、01 口令速查、02 MCP 配置必读、03 MCP 优惠购买入口**。它们不需要解密即可阅读；业务 Skill 在授权安装后由 Codex 加载，不需要用户逐个打开文件。
 
-本次修订 S1 产品图片与结论首屏、S1–S5 逐步与交接指引、模型建议，以及 S2 的“竞品确认 → 可复制 ASIN 清单 → 等待用户导出表 → 清洗 → 文案”顺序。真实任务中能否按步骤停下仍是测试重点。
+本次更新按需 Skill 导航、模型分档与交互：日常任务在已授权范围内连续完成，salon_live 保留教学停顿；指定字段小改不重开全链。完整 S2 仍需竞品确认和真实导出。模型建议为 Terra 中日常、Astra 中分析、明确难点再高；不承诺固定节省比例。详见 [模型与省额度指南](docs/模型与省额度指南.md)。
 
-**想参加测试：**私信坚哥发送“Codex 测试 + Windows/Mac + 想测试的板块”。收到安排后再提供本机申请码，按作者指定期限领取对应版本授权。详见 [会员测试与问题反馈](docs/会员测试与反馈.md)。原 rc.1 授权码不能直接解密 rc.2，请联系换发。
+**想参加测试：**私信坚哥发送“Codex 测试 + Windows/Mac + 想测试的板块”。收到安排后再提供本机申请码，按作者指定期限领取对应版本授权。详见 [会员测试与问题反馈](docs/会员测试与反馈.md)。旧 rc.1/rc.2 授权码不能直接解密 rc.3，请联系换发。
 
-启动星空时自动检查新版：有更新会在会话中提示版本与更新说明，继续当前业务；按已购服务权益联系坚哥取得对应版本授权后安装。网络不可用时继续用当前版本，不要求后台常驻程序。
+选择业务并开始执行时，每任务检查一次新版：有更新会在会话中提示版本与更新说明，继续当前业务；按已购服务权益联系坚哥取得对应版本授权后安装。网络不可用时继续用当前版本，不要求后台常驻程序。
 
 不要下载 GitHub 自动生成的 `Source code.zip` 作为安装包；它只包含本公开仓的介绍文档。
 
