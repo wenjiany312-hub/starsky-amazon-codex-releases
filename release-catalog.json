@@ -1,25 +1,25 @@
 {
   "product": "starsky-codex",
-  "latest_preview": "2.6.0-rc.14",
+  "latest_preview": "2.6.0-rc.20",
   "stable_release": null,
   "same_business_payload": true,
-  "updated": "2026-09-12",
-  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/tag/v2.6.0-rc.14",
+  "updated": "2026-09-13",
+  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/tag/v2.6.0-rc.20",
   "platforms": {
     "windows": {
-      "file": "Starsky-Codex-2.6.0-rc.14-windows.zip",
-      "sha256": "768bfc6b46bef27b4e99ac4035adaa0b88cce487b652e4e7d64571fa7871eae8",
-      "bytes": 3522495
+      "file": "Starsky-Codex-2.6.0-rc.20-windows.zip",
+      "sha256": "d81cb57ebe4c42e9889244581368a483086cd8e8e8f6e871f15495d3",
+      "bytes": 3595514
     },
     "macos": {
-      "file": "Starsky-Codex-2.6.0-rc.14-macos.zip",
-      "sha256": "42487177905b5c93c6913ea3789798556a9ff2c68eed81833deba18d4fdc6295",
-      "bytes": 3522023
+      "file": "Starsky-Codex-2.6.0-rc.20-macos.zip",
+      "sha256": "4e435f070c7302e68fdcb6f62bc795a90e1a0b5834065910f8ba61e35b690319",
+      "bytes": 3594499
     }
   },
   "verification": {
-    "release_tests": 295,
-    "business_tests": 144,
+    "release_tests": 352,
+    "business_tests": 204,
     "windows_isolated_upgrade": true,
     "mac_shell_syntax": null,
     "mac_hardware": false,
@@ -31,9 +31,9 @@
     "remote_devices_installed": false,
     "sanitize_scan": "PASS",
     "encrypted_audit": "PASS",
-    "skill_count": 39,
-    "release_subtests": 75,
-    "business_subtests": 15,
+    "skill_count": 40,
+    "release_subtests": 83,
+    "business_subtests": 74,
     "known_secret_scan": "PASS",
     "windows_local_install": true
   },
