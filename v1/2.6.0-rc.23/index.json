@@ -1,11 +1,11 @@
 {
-  "bytes": 45895,
+  "bytes": 47399,
   "file": "grants.zip",
-  "generated_at": "2026-09-18T02:38:51.876763+00:00",
+  "generated_at": "2026-09-18T11:41:57.424774+00:00",
   "key_id": "604bd84b703d9a963a53d426ee91d477",
   "payload_sha256": "2b7b0a56ba4de772d3fd76665fb499d87e9db1a1133680afdd7e68326241be36",
   "product": "starsky-codex",
   "schema": 1,
-  "sha256": "41a0eb95dad053407ffa6880e0574ba283f63b718e3f80fb1880622339ad1128",
+  "sha256": "bb632a2cb50ee791f26f60ef098399718ceabb8fc08ab9273da35fe50c495ef5",
   "version": "2.6.0-rc.23"
 }
