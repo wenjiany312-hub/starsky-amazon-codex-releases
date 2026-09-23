@@ -20,24 +20,24 @@
 
 ## 最新版本入口
 
-**只认此处：最新公开预览版为 v2.6.0-rc.24。** Windows 与 Mac 是同一版本的两个安装包，不是两条业务分支。旧版保留用于回退；目前没有已完成全平台实机验收的稳定版声明。
+**只认此处：最新公开预览版为 v2.6.0-rc.25。** Windows 与 Mac 是同一版本的两个安装包，不是两条业务分支。旧版保留用于回退；目前没有已完成全平台实机验收的稳定版声明。
 
 ## 下载
 
-当前为 **2.6.0-rc.24 双平台会员测试版（Pre-release）**，面向愿意实测并反馈问题的星球会员。本版相对 rc.23：纯净机Python自愈、SHA点名到文件、MCP去黄条、CodexHost 13宿主入口、主页对齐硬闸、卡片作用域收敛；完整纳入 rc.23 选品库+S5运营端。Windows 和 Mac 的 rc.1 已有安装、授权与本地体检记录；Mac 实机更新、新任务加载及完整 S1/S2 实跑仍待测试，不等于正式稳定版验收通过。
+当前为 **2.6.0-rc.25 双平台会员测试版（Pre-release）**，面向愿意实测并反馈问题的星球会员。本版相对 rc.24：推广库脱敏（去本店产品档案）、说明只留 HTML 并新增知识库总览、00 本版更新随版本自动注入；完整纳入 rc.24 的排错5项与主页对齐。Windows 和 Mac 的 rc.1 已有安装、授权与本地体检记录；Mac 实机更新、新任务加载及完整 S1/S2 实跑仍待测试，不等于正式稳定版验收通过。
 
 | 平台 | 下载 | 安装入口 |
 | --- | --- | --- |
-| Windows | [Windows 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.24/Starsky-Codex-2.6.0-rc.24-windows.zip) | 解压后先看 `00-使用说明.html`，已有会员运行 `安装与更新.bat` |
-| macOS | [Mac 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.24/Starsky-Codex-2.6.0-rc.24-macos.zip) | 解压后先看 `00-使用说明.html`，已有会员运行 `安装与更新.command` |
+| Windows | [Windows 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.25/Starsky-Codex-2.6.0-rc.25-windows.zip) | 解压后先看 `00-使用说明.html`，已有会员运行 `安装与更新.bat` |
+| macOS | [Mac 测试包](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases/download/v2.6.0-rc.25/Starsky-Codex-2.6.0-rc.25-macos.zip) | 解压后先看 `00-使用说明.html`，已有会员运行 `安装与更新.command` |
 
 [查看全部版本与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-releases/releases) · [安装、授权与更新说明](docs/安装与授权.md) · [本版更新记录](docs/更新记录.md) · [S5 运营终端使用说明](docs/S5运营终端.md)
 
 两包均含四份离线说明，每份提供 HTML 和 TXT：**00 使用说明、01 口令速查、02 MCP 配置必读、03 MCP 优惠购买入口**。它们不需要解密即可阅读；业务 Skill 在授权安装后由 Codex 加载，不需要用户逐个打开文件。
 
-会员更新规则从 rc.4 起生效，当前预览为 rc.24，见 [会员更新说明](docs/会员更新说明.md)。日常任务在已授权范围内连续完成，salon_live 保留教学停顿；指定字段小改不重开全链。完整 S2 仍需竞品确认和真实导出。模型建议为 Terra 中日常、Astra 中分析、明确难点再高；不承诺固定节省比例。详见 [模型与省额度指南](docs/模型与省额度指南.md)。
+会员更新规则从 rc.4 起生效，当前预览为 rc.25，见 [会员更新说明](docs/会员更新说明.md)。日常任务在已授权范围内连续完成，salon_live 保留教学停顿；指定字段小改不重开全链。完整 S2 仍需竞品确认和真实导出。模型建议为 Terra 中日常、Astra 中分析、明确难点再高；不承诺固定节省比例。详见 [模型与省额度指南](docs/模型与省额度指南.md)。
 
-**想参加测试：**私信坚哥发送“Codex 测试 + Windows/Mac + 想测试的板块”。收到安排后再提供本机申请码，按作者指定期限领取对应版本授权。详见 [会员测试与问题反馈](docs/会员测试与反馈.md)。已装 rc.4 的有效会员可运行“检查新版”；旧 rc.1–rc.3 已登记会员先运行 rc.24 新包“安装与更新”，自动复用原码接入。新领的 rc.24 授权码只能装 rc.24 包，不要装旧包。
+**想参加测试：**私信坚哥发送“Codex 测试 + Windows/Mac + 想测试的板块”。收到安排后再提供本机申请码，按作者指定期限领取对应版本授权。详见 [会员测试与问题反馈](docs/会员测试与反馈.md)。已装 rc.4 的有效会员可运行“检查新版”；旧 rc.1–rc.3 已登记会员先运行 rc.25 新包“安装与更新”，自动复用原码接入。新领的 rc.25 授权码只能装 rc.25 包，不要装旧包。有 rc.24 的请尽快更新到 rc.25（推广库脱敏）。
 
 选择业务并开始执行时，每任务检查一次新版：有效会员有可安装新版时会在会话中提示版本与更新说明，确认后更新，无需重复领码；固定版本试用不推送。网络不可用时继续用当前版本，不要求后台常驻程序。
 
